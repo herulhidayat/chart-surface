@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "es2015", "esnext"],
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react",
+    "typeRoots" : ["node_modules/@types", "src/types"],
+    "types": ["node", "webpack-env"],
+    "baseUrl": "",
+    "paths": {
+      "@app/*": ["./src/app/*"],
+      "@components": ["./src/app/components/*"],
+      "@pages/*": ["./src/app/pages/*"],
+    }
+  },
+  "include": [
+    "src"
+  ]
+}

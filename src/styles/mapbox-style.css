@@ -1,0 +1,21 @@
+@import "mapbox-gl/dist/mapbox-gl.css";
+@import '@mapbox/mapbox-gl-geocoder/dist/mapbox-gl-geocoder.css';
+
+.mapboxgl-popup {
+  max-width: 400px !important;
+  .page-item-none {
+    display: none;
+  }
+  .mapboxgl-popup-content {
+    background-color: var(--black-1);
+    .mapboxgl-popup-close-button {
+      color: var(--black-900);
+    }
+    padding: 0;
+    border-radius: 0.57143rem;
+  }
+}
+
+.mapboxgl-ctrl-logo {
+  display: none !important;
+}
