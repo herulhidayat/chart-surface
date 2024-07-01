@@ -59,7 +59,9 @@ const config: Configuration = {
     alias: {
       '@app': path.resolve(__dirname, 'src/app/'),
       '@components': path.resolve(__dirname, 'src/app/components/'),
+      '@modules': path.resolve(__dirname, 'src/app/modules/'),
       '@pages': path.resolve(__dirname, 'src/app/pages/'),
+      '@assets': path.resolve(__dirname, 'src/assets/'),
     },
     fallback: {
       os: false,
@@ -75,10 +77,10 @@ const config: Configuration = {
       extensions: ['js', 'jsx', 'ts', 'tsx'],
     }),
     new ModuleFederationPlugin({
-      name: 'MicroMap',
+      name: 'MicroCharts',
       filename: 'remoteEntry.js',
       exposes: {
-        './MapBasic': './src/app/components/Mapbox/MapBasic',
+        './ChartsSurface': './src/app/components/Charts/ChartsSurface',
       },
       shared: {
         react: { eager: true, singleton: true, requiredVersion: dependencies['react'] },

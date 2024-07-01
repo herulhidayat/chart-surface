@@ -19,6 +19,8 @@
       "@app/*": ["./src/app/*"],
       "@components": ["./src/app/components/*"],
       "@pages/*": ["./src/app/pages/*"],
+      "@modules/*": ["./src/app/modules/*"],
+      "@assets/*": ["./src/assets/*"]
     }
   },
   "include": [

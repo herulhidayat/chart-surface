@@ -1,1 +1,1 @@
-declare module 'MicroMap/MapBasic';
+declare module 'MicroCharts/ChartsSurface';
