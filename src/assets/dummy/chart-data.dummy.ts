@@ -363,3 +363,222 @@ export const DUMMY_DATA2 = [
         "diagonal": "362.89",
     }
 ]
+
+export const DUMMY_DATA3 = [
+    {
+        "length": "348",
+        "height": "272",
+        "diagonal": "441.69",
+        "null": null
+    },
+    {
+        "length": "186",
+        "height": "294",
+        "diagonal": "347.90",
+        "null": null
+    },
+    {
+        "length": "242",
+        "height": "319",
+        "diagonal": "400.41",
+        "null": null
+    },
+    {
+        "length": "267",
+        "height": "110",
+        "diagonal": "288.77",
+        "null": null
+    },
+    {
+        "length": "250",
+        "height": "305",
+        "diagonal": "394.37",
+        "null": null
+    },
+    {
+        "length": "211",
+        "height": "319",
+        "diagonal": "382.47",
+        "null": null
+    },
+    {
+        "length": "71",
+        "height": "319",
+        "diagonal": "326.81",
+        "null": null
+    },
+    {
+        "length": "48",
+        "height": "161",
+        "diagonal": "168.00",
+        "null": null
+    },
+    {
+        "length": "342",
+        "height": "319",
+        "diagonal": "467.68",
+        "null": null
+    },
+    {
+        "length": "242",
+        "height": "305",
+        "diagonal": "389.34",
+        "null": null
+    },
+    {
+        "length": "194",
+        "height": "286",
+        "diagonal": "345.59",
+        "null": null
+    },
+    {
+        "length": "544",
+        "height": "317",
+        "diagonal": "629.62",
+        "null": null
+    },
+    {
+        "length": "192",
+        "height": "303",
+        "diagonal": "358.71",
+        "null": null
+    },
+    {
+        "length": "297",
+        "height": "317",
+        "diagonal": "434.39",
+        "null": null
+    },
+    {
+        "length": "148",
+        "height": "307",
+        "diagonal": "340.81",
+        "null": null
+    },
+    {
+        "length": "426",
+        "height": "269",
+        "diagonal": "503.82",
+        "null": null
+    },
+    {
+        "length": "560",
+        "height": "304",
+        "diagonal": "637.19",
+        "null": null
+    },
+    {
+        "length": "232",
+        "height": "123",
+        "diagonal": "262.59",
+        "null": null
+    },
+    {
+        "length": "197",
+        "height": "216",
+        "diagonal": "292.34",
+        "null": null
+    },
+    {
+        "length": "131",
+        "height": "316",
+        "diagonal": "342.08",
+        "null": null
+    },
+    {
+        "length": "533",
+        "height": "318",
+        "diagonal": "620.66",
+        "null": null
+    },
+    {
+        "length": "200",
+        "height": "267",
+        "diagonal": "333.60",
+        "null": null
+    },
+    {
+        "length": "205",
+        "height": "319",
+        "diagonal": "379.19",
+        "null": null
+    },
+    {
+        "length": "580",
+        "height": "215",
+        "diagonal": "618.57",
+        "null": null
+    },
+    {
+        "length": "168",
+        "height": "316",
+        "diagonal": "357.88",
+        "null": null
+    },
+    {
+        "length": "471",
+        "height": "318",
+        "diagonal": "568.30",
+        "null": null
+    },
+    {
+        "length": "194",
+        "height": "306",
+        "diagonal": "362.31",
+        "null": null
+    },
+    {
+        "length": "233",
+        "height": "205",
+        "diagonal": "310.34",
+        "null": null
+    },
+    {
+        "length": "203",
+        "height": "233",
+        "diagonal": "309.03",
+        "null": null
+    },
+    {
+        "length": "142",
+        "height": "76",
+        "diagonal": "161.06",
+        "null": null
+    },
+    {
+        "length": "240",
+        "height": "318",
+        "diagonal": "398.40",
+        "null": null
+    },
+    {
+        "length": "187",
+        "height": "311",
+        "diagonal": "362.89",
+        "null": null
+    },
+    {
+        "length": "459",
+        "height": "246",
+        "diagonal": "520.77",
+        "null": null
+    },
+    {
+        "length": "374",
+        "height": "272",
+        "diagonal": "462.45",
+        "null": null
+    },
+    {
+        "length": "176",
+        "height": "319",
+        "diagonal": "364.33",
+        "null": null
+    },
+    {
+        "length": "173",
+        "height": "319",
+        "diagonal": "362.89",
+        "null": null
+    }
+]

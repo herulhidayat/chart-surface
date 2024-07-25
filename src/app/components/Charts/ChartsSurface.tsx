@@ -2,10 +2,13 @@ import ChartsVisualization from "@app/modules/ECharts/ChartsVisualization";
 import { DUMMY_DATA, DUMMY_DATA2 } from "@assets/dummy/chart-data.dummy";
 import React from "react";
 
-export default function ChartsSurface() {
+interface Props {
+  data: any
+}
+export default function ChartsSurface({ data }: Props) {
   let min = Infinity
   let max = 1
-  const rawData = DUMMY_DATA2.map((d:any) => {
+  const rawData = data.map((d:any) => {
     min = Math.min(min, d.diagonal)
     max = Math.max(max, d.diagonal)
     return [d.length, d.height, d.diagonal]
@@ -23,7 +26,7 @@ export default function ChartsSurface() {
       min: min,
       max: max,
       inRange: {
-        color: ['#313695', '#4575b4', '#74add1', '#abd9e9', '#e0f3f8', '#fee090', '#fdae61', '#f46d43', '#d73027', '#a50026']
+        color: ['#ffffff', '#000000', '#ffffff']
       }
     },
     toolbox: {
