@@ -180,3 +180,186 @@ export const DUMMY_DATA = [
         "time": "85.50"
     }
 ]
+
+export const DUMMY_DATA2 = [
+    {
+        "length": "348",
+        "height": "272",
+        "diagonal": "441.69",
+    },
+    {
+        "length": "142",
+        "height": "76",
+        "diagonal": "161.06",
+    },
+    {
+        "length": "186",
+        "height": "294",
+        "diagonal": "347.90",
+    },
+    {
+        "length": "242",
+        "height": "319",
+        "diagonal": "400.41",
+    },
+    {
+        "length": "267",
+        "height": "110",
+        "diagonal": "288.77",
+    },
+    {
+        "length": "250",
+        "height": "305",
+        "diagonal": "394.37",
+    },
+    {
+        "length": "211",
+        "height": "319",
+        "diagonal": "382.47",
+    },
+    {
+        "length": "71",
+        "height": "319",
+        "diagonal": "326.81",
+    },
+    {
+        "length": "48",
+        "height": "161",
+        "diagonal": "168.00",
+    },
+    {
+        "length": "342",
+        "height": "319",
+        "diagonal": "467.68",
+    },
+    {
+        "length": "242",
+        "height": "305",
+        "diagonal": "389.34",
+    },
+    {
+        "length": "194",
+        "height": "286",
+        "diagonal": "345.59",
+    },
+    {
+        "length": "544",
+        "height": "317",
+        "diagonal": "629.62",
+    },
+    {
+        "length": "192",
+        "height": "303",
+        "diagonal": "358.71",
+    },
+    {
+        "length": "155",
+        "height": "10",
+        "diagonal": "155.32",
+    },
+    {
+        "length": "240",
+        "height": "73",
+        "diagonal": "250.86",
+    },
+    {
+        "length": "297",
+        "height": "317",
+        "diagonal": "434.39",
+    },
+    {
+        "length": "261",
+        "height": "48",
+        "diagonal": "265.38",
+    },
+    {
+        "length": "148",
+        "height": "307",
+        "diagonal": "340.81",
+    },
+    {
+        "length": "426",
+        "height": "269",
+        "diagonal": "503.82",
+    },
+    {
+        "length": "683",
+        "height": "26",
+        "diagonal": "683.49",
+    },
+    {
+        "length": "560",
+        "height": "304",
+        "diagonal": "637.19",
+    },
+    {
+        "length": "232",
+        "height": "123",
+        "diagonal": "262.59",
+    },
+    {
+        "length": "197",
+        "height": "216",
+        "diagonal": "292.34",
+    },
+    {
+        "length": "131",
+        "height": "316",
+        "diagonal": "342.08",
+    },
+    {
+        "length": "175",
+        "height": "85",
+        "diagonal": "194.55",
+    },
+    {
+        "length": "163",
+        "height": "43",
+        "diagonal": "168.58",
+    },
+    {
+        "length": "533",
+        "height": "318",
+        "diagonal": "620.66",
+    },
+    {
+        "length": "200",
+        "height": "267",
+        "diagonal": "333.60",
+    },
+    {
+        "length": "205",
+        "height": "319",
+        "diagonal": "379.19",
+    },
+    {
+        "length": "240",
+        "height": "318",
+        "diagonal": "398.40",
+    },
+    {
+        "length": "187",
+        "height": "311",
+        "diagonal": "362.89",
+    },
+    {
+        "length": "459",
+        "height": "246",
+        "diagonal": "520.77",
+    },
+    {
+        "length": "374",
+        "height": "272",
+        "diagonal": "462.45",
+    },
+    {
+        "length": "176",
+        "height": "319",
+        "diagonal": "364.33",
+    },
+    {
+        "length": "173",
+        "height": "319",
+        "diagonal": "362.89",
+    }
+]

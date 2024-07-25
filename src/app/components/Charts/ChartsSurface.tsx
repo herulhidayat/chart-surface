@@ -1,15 +1,17 @@
 import ChartsVisualization from "@app/modules/ECharts/ChartsVisualization";
-import { DUMMY_DATA } from "@assets/dummy/chart-data.dummy";
+import { DUMMY_DATA, DUMMY_DATA2 } from "@assets/dummy/chart-data.dummy";
 import React from "react";
 
 export default function ChartsSurface() {
   let min = Infinity
   let max = 1
-  const rawData = DUMMY_DATA.map((d:any) => {
-    min = Math.min(min, d.time)
-    max = Math.max(max, d.time)
-    return [d.length, d.height, d.time]
+  const rawData = DUMMY_DATA2.map((d:any) => {
+    min = Math.min(min, d.diagonal)
+    max = Math.max(max, d.diagonal)
+    return [d.length, d.height, d.diagonal]
   })
+
+  console.log(rawData)
 
 
     
