@@ -3,6 +3,7 @@ import { ProvidePlugin, Configuration as WebpackConfiguration } from 'webpack'
 import { Configuration as WebpackDevServerConfiguration } from 'webpack-dev-server'
 const { ModuleFederationPlugin } = require('webpack').container
 const { dependencies } = require('./package.json')
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 interface Configuration extends WebpackConfiguration {
   devServer?: WebpackDevServerConfiguration
@@ -92,6 +93,10 @@ const config: Configuration = {
         'react-dom': { eager: true, singleton: true, requiredVersion: dependencies['react-dom'] },
       },
     }),
+    new HtmlWebpackPlugin({
+      template: './src/index.html',
+      filename: 'index.html'
+    })
   ],
 }
 
