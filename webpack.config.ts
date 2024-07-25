@@ -12,7 +12,8 @@ import ESLintPlugin from 'eslint-webpack-plugin'
 
 const config: Configuration = {
   output: {
-    publicPath: 'auto',
+    path: path.resolve(__dirname, 'build'),
+    filename: 'bundle.js'
   },
   entry: ['./src/index.tsx', './src/assets/js/fas.js'],
   module: {
